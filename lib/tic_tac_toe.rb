@@ -91,6 +91,7 @@ class TicTacToe
   end
 
       def play 
-        user_input.turn
+        turn
+        
       end
 end
