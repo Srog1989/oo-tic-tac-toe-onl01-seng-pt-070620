@@ -91,5 +91,6 @@ class TicTacToe
   end
 
       def play 
+        @board
       end
 end
