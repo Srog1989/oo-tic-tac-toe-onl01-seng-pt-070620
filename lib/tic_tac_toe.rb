@@ -91,6 +91,6 @@ class TicTacToe
   end
 
       def play 
-        @board= user_input
+        user_input
       end
 end
