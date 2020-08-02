@@ -91,7 +91,7 @@ class TicTacToe
   end
 
       def play 
-        
+        user_input until over?
         
       end
 end
