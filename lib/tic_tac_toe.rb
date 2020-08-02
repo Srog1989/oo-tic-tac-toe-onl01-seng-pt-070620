@@ -90,7 +90,8 @@ class TicTacToe
     end
   end
 
-    #   def play 
-    #   turn until win?
-    # end
+     def play 
+      turn until win?
+      puts "Congratulations #{winner}!"
+     end
 end
