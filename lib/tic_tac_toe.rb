@@ -69,7 +69,7 @@ class TicTacToe
      end
      
      def over?
-      @board = full? || won? ? true:false
+      @board = draw? || won? ? true:false
      end
      
      def winner
@@ -90,8 +90,8 @@ class TicTacToe
     end
   end
 
-      def play 
-       turn until win? || draw?
+      # def play 
+      # turn until win? || draw?
        
-      end
+      # end
 end
