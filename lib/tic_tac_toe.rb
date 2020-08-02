@@ -90,7 +90,7 @@ class TicTacToe
     end
   end
 
-      # def play 
-      # turn until win? || draw?
-       
+       def play 
+       turn until win? || draw?
+     end
 end
