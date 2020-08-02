@@ -92,6 +92,6 @@ class TicTacToe
 
       def play 
        turn until over?
-       
+       @board[index] == "X"
       end
 end
