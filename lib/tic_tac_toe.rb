@@ -69,8 +69,7 @@ class TicTacToe
      end
      
      def over?
-    won? || draw?
-      
+      won? || draw?
      end
      
      def winner
@@ -94,5 +93,4 @@ class TicTacToe
       # def play 
       # turn until win? || draw?
        
-      end
 end
